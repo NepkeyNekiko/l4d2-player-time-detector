@@ -1,0 +1,36 @@
+"Phrases"
+{
+	"Broadcast"
+	{
+		"#format"	"{1:N},{2:s},{3:0.1f}"
+		"en"		"Player {olive}{1} {green}[{2}]{olive}[{3}Hours] {default}Has joined."
+	}
+	"BroadcastKick"
+	{
+		"#format"	"{1:N},{2:.1f},{3:0.1f}"
+		"en"		"Player {olive}{1}[{2}Hours] {default}has been removed from the game for having under {green}{3} {default}hours of playtime."
+	}
+	"PlayerData"
+	{
+		"#format"	"{1:d},{2:N},{3:s},{4:0.1f}"
+		"en"		"{olive}#{1} {default}Player {olive}{2} {green}[{3}]{olive}[{4}Hours]"
+	}
+	"NotAvailable"
+	{
+		"#format"	"{1:d},{2:N},{3:s}"
+		"en"		"{olive}#{1} {default}Player {olive}{2} {green}[{3}]{olive}[Querying]"
+	}
+	"KickMsg"
+	{
+		"#format"	"{1:0.1f}"
+		"en"		"You need at least {1} hours of playtime to join this server"
+	}
+	"NeedWait"
+	{
+		"en"		"{green}Wait {default}until the server finishes the query before trying again."
+	}
+	"QueryAll"
+	{
+		"en"		"If you want to check everyone's playtime, just type {olive}!timeall{default}."
+	}
+}
